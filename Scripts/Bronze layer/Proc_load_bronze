@@ -45,7 +45,7 @@ BEGIN
 		PRINT '>> LOAD DURATION: ' + CAST (DATEDIFF(SECOND,@start_time,@end_time) AS VARCHAR) + ' SENCONDS';
 		PRINT '     ----------'
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		PRINT '                             ';
 		PRINT '>>TRUNCATING AND ADDING DATA IN TABLE : bronze.crm_prd_info<<';
 
@@ -63,7 +63,7 @@ BEGIN
 		PRINT '>> LOAD DURATION: ' + CAST (DATEDIFF(SECOND,@start_time,@end_time) AS VARCHAR) + ' SENCONDS';
 		PRINT '     ----------'
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		PRINT '                             ';
 		PRINT '>>TRUNCATING AND ADDING DATA IN TABLE : bronze.crm_sales_details<<';
 
@@ -80,6 +80,7 @@ BEGIN
 		SET @end_time = getdate();
 		PRINT '>> LOAD DURATION: ' + CAST (DATEDIFF(SECOND,@start_time,@end_time) AS VARCHAR) + ' SENCONDS';
 		PRINT '     ----------'
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 		PRINT '                             ';
@@ -102,7 +103,7 @@ BEGIN
 		PRINT '>> LOAD DURATION: ' + CAST (DATEDIFF(SECOND,@start_time,@end_time) AS VARCHAR) + ' SENCONDS';
 		PRINT '     ----------'
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		PRINT '                             ';
 		PRINT '>>TRUNCATING AND ADDING DATA IN TABLE : bronze.erp_loc_a101<<';
 
@@ -120,7 +121,7 @@ BEGIN
 		PRINT '>> LOAD DURATION: ' + CAST (DATEDIFF(SECOND,@start_time,@end_time) AS VARCHAR) + ' SENCONDS';
 		PRINT '     ----------'
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		PRINT '                             ';
 		PRINT '>>TRUNCATING AND ADDING DATA IN TABLE : bronze.erp_px_cat_g1v2<<';
 
